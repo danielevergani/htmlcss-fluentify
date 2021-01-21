@@ -10,7 +10,7 @@ body{
 
 header{
   background-color: #0c325a;
-  height: 70vh;
+  height: 500px;
   color: white;
   background-image: url(../img/background-header.png);
   background-repeat: no-repeat;
@@ -24,7 +24,6 @@ a{
 }
 
 .upper{
-  position: relative;
   width: 80%;
   height: calc(100%/5);
   margin: auto;
@@ -75,16 +74,18 @@ a{
 }
 
 
-.hero{
+.hero-dim{
   width: 80%;
-  height: 80%;
+  height: 400px;
   margin: auto;
+  position:relative;
 }
 
 .title{
-  position: absolute;
-  top: 170px;
   width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .title h1{
