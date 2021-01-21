@@ -113,3 +113,51 @@ a{
   padding: 40px 0;
   line-height: 40px;
 }
+
+.scuole-trad h3{
+  font-size: 23px;
+}
+
+.row{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.col{
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 0 15px;
+}
+
+.col img{
+  width: 200px;
+  height: auto;
+}
+
+.img-piccola{
+  width: 300px;
+  height: 200px;
+}
+
+.img-container{
+  width: 40%;
+  height: 240px;
+  margin: auto;
+}
+
+.row hr{
+  margin: auto;
+  width: 20%;
+}
+
+.row h3{
+  color: #7cbb05;
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.row p{
+  margin: 15px 0;
+}
