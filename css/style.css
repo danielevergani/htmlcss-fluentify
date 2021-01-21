@@ -14,7 +14,7 @@ header{
   color: white;
 }
 
-a{
+a:not(.livello-iniziale a){
   text-decoration: none;
   color: white
 }
@@ -115,13 +115,14 @@ a{
 }
 
 .scuole-trad h3{
-  font-size: 23px;
+  font-size: 30px;
 }
 
 .row{
   width: 80%;
   margin: auto;
   margin-top: 30px;
+  margin-bottom: 50px;;
 }
 
 .col{
@@ -130,11 +131,6 @@ a{
   text-align: center;
   padding: 0 15px;
 }
-
-/* .col img{
-  width: 200px;
-  height: auto;
-} */
 
 .img-container img{
   max-width: 100%;
@@ -159,4 +155,49 @@ a{
 
 .row p{
   margin: 15px 0;
+}
+
+.row::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.service{
+    border-bottom: 1px solid black;
+}
+
+.livello-iniziale{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;;
+}
+
+.livello-iniziale::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.img-livello{
+  float: left;
+  width: calc(100% / 2);
+  height: 600px;
+}
+
+.img-livello img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text-livello{
+  width: 38%;
+  float:left;
+}
+
+.text-livello > h3,p{
+  margin-bottom: 15px;
+}
+
+.text-livello h3{
+  font-size: 50px;
 }
