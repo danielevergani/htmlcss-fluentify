@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 header{
   background-color: #0c325a;
@@ -12,6 +15,7 @@ header{
 }
 
 .upper{
+  position: relative;
   width: 80%;
   margin: auto;
   text-transform: uppercase;
@@ -20,9 +24,12 @@ header{
 .logo-nav{
   padding-top: 20px;
   display: inline-block;
-  width: 50%
+  width: 60%
 }
 
+.logo-nav img{
+  margin-right: 40px;
+}
 .nav{
   display: inline-block;
   text-decoration: none;
@@ -43,6 +50,36 @@ header{
   display: inline-block;
 
 }
-.login, p, a{
+.login, p, .button{
   display: inline-block;
+}
+
+.button{
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.login .button{
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.button:hover{
+  background-color: #7cbb05;
+  border: none;
+}
+
+.title{
+  position: absolute;
+  top: 170px;
+  width: 50%;
+}
+
+.title h1{
+  margin-bottom: 20px;
+}
+
+.important{
+  padding: 20px;
+  background-color: #7cbb05;
 }
