@@ -10,13 +10,23 @@ body{
 
 header{
   background-color: #0c325a;
-  height: 60vh;
+  height: 70vh;
   color: white;
+  background-image: url(../img/background-header.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+a{
+  text-decoration: none;
+  color: white
 }
 
 .upper{
   position: relative;
   width: 80%;
+  height: calc(100%/5);
   margin: auto;
   text-transform: uppercase;
 }
@@ -38,11 +48,6 @@ header{
 
 .nav li{
   display: inline-block;
-}
-
-.upper a{
-  text-decoration: none;
-  color: white
 }
 
 .login{
@@ -69,6 +74,13 @@ header{
   border: none;
 }
 
+
+.hero{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
 .title{
   position: absolute;
   top: 170px;
@@ -76,6 +88,7 @@ header{
 }
 
 .title h1{
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
