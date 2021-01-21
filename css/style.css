@@ -14,7 +14,7 @@ header{
   color: white;
 }
 
-a:not(.livello-iniziale a){
+.upper a{
   text-decoration: none;
   color: white
 }
@@ -63,6 +63,7 @@ a:not(.livello-iniziale a){
 }
 
 .button{
+  color: white;
   border-radius: 5px;
   border: 1px solid white;
 }
@@ -170,6 +171,7 @@ a:not(.livello-iniziale a){
   width: 80%;
   margin: auto;
   margin-top: 50px;;
+  padding-bottom: 40px;
 }
 
 .livello-iniziale::after{
@@ -200,4 +202,30 @@ a:not(.livello-iniziale a){
 
 .text-livello h3{
   font-size: 50px;
+}
+
+.piano-dim{
+  width:80%;
+  margin: auto;
+}
+
+.piano-sect{
+  width: 49%;
+  display: inline-block;
+}
+
+.piano-sect h3{
+  margin: 80px 0;
+  font-size: 50px;
+}
+
+.piano-sect span{
+  margin-left: 20px;
+}
+.piano-sect a{
+  margin-left: 20px;
+}
+
+.selezione{
+  border-bottom: 1px solid black;
 }
