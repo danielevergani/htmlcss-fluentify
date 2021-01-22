@@ -1,3 +1,4 @@
+/* general */
 *{
   margin: 0;
   padding: 0;
@@ -20,14 +21,17 @@ a{
   text-transform: uppercase;
 }
 
+.paragraph-text{
+  color: #808080;
+}
+
 .sect{
   background-color: #d3d3d3;
 }
 
-.text{
-  color: #808080;
-}
+/* end general */
 
+/* buttons */
 .btn{
   display: inline-block;
   color: white;
@@ -47,8 +51,18 @@ a{
   background-color: #7cbb05;
   border: none;
 }
+/* end buttons */
 
-.upper{
+/* clearfix */
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* end clearfix */
+
+/* sez logo e barre navigazione */
+.container-logo-nav{
   width: 80%;
   height: calc(100%/5);
   margin: auto;
@@ -58,7 +72,7 @@ a{
 .logo-nav{
   padding-top: 20px;
   display: inline-block;
-  width: 60%
+  width: 15%
 }
 
 .logo-nav img{
@@ -69,6 +83,7 @@ a{
   display: inline-block;
   text-decoration: none;
   vertical-align: 50%;
+  width: 50%;
 }
 
 .nav li{
@@ -79,11 +94,17 @@ a{
 .login{
   vertical-align: 50%;
   display: inline-block;
+  width: 34%;
+  text-align: right;
 }
 
 .login .btn{
   margin-left: 10px;
 }
+
+/* end sez logo e barre navigazione */
+
+/* sezione hero */
 
 .hero{
   background-image: url('../img/background-header.png');
@@ -110,7 +131,9 @@ a{
   font-size: 50px;
   margin-bottom: 20px;
 }
+/* end sezione hero */
 
+/* section 1 */
 .scuole-trad{
   text-align: center;
   padding: 40px 0;
@@ -120,7 +143,9 @@ a{
 .scuole-trad h3{
   font-size: 30px;
 }
+/* end section 1 */
 
+/* sez servizi offerti */
 .row{
   width: 80%;
   margin: auto;
@@ -160,27 +185,17 @@ a{
   margin: 15px 0;
 }
 
-.row::after{
-  content: "";
-  display: block;
-  clear: both;
-}
 .service{
-    border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
 }
+/* end sez servizi offerti */
 
-
+/* sez valuta livello iniziale */
 .livello-iniziale{
   width: 80%;
   margin: auto;
   margin-top: 50px;;
   padding-bottom: 40px;
-}
-
-.livello-iniziale::after{
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .livello-iniziale a{
@@ -212,7 +227,9 @@ a{
 .text-livello h3{
   font-size: 50px;
 }
+/* end sez valuta livello iniziale */
 
+/* section 2 */
 .piano-dim{
   width:80%;
   margin: auto;
@@ -239,7 +256,7 @@ a{
   border-bottom: 1px solid black;
 }
 
-button{
+#help-button{
   background-color: #7cbb05;
   border: none;
   border-radius: 5px;
@@ -249,3 +266,5 @@ button{
   bottom: 0;
   right: 29%;
 }
+
+/* end section 2 */
