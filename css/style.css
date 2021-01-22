@@ -10,13 +10,14 @@ body{
 
 header{
   background-color: #0c325a;
-  height: 500px;
+  height: 600px;
   color: white;
 }
 
 a{
   text-decoration: none;
-  color: white
+  color: white;
+  text-transform: uppercase;
 }
 
 .sect{
@@ -50,6 +51,7 @@ a{
 }
 
 .nav li{
+  margin-right: 10px;
   display: inline-block;
 }
 
@@ -79,15 +81,15 @@ a{
 }
 
 .hero{
-  background-image: url(../img/background-header.png);
+  background-image: url('../img/background-header.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+  background-size: 66%;
+  background-position: 115% 100%;
 }
 
 .hero-dim{
   width: 80%;
-  height: 400px;
+  height: 500px;
   margin: auto;
   position:relative;
 }
@@ -164,7 +166,7 @@ a{
   clear: both;
 }
 .service{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 
@@ -184,6 +186,7 @@ a{
 .livello-iniziale a{
   color: blue;
   text-decoration: underline;
+  text-transform: none;
 }
 
 .img-livello{
