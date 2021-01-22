@@ -28,6 +28,26 @@ a{
   color: #808080;
 }
 
+.btn{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 10px 8px;
+  min-width: 100px;
+}
+
+.btn-important{
+  padding: 20px;
+  border: none;
+}
+
+.btn-green{
+  background-color: #7cbb05;
+  border: none;
+}
+
 .upper{
   width: 80%;
   height: calc(100%/5);
@@ -44,6 +64,7 @@ a{
 .logo-nav img{
   margin-right: 40px;
 }
+
 .nav{
   display: inline-block;
   text-decoration: none;
@@ -58,26 +79,10 @@ a{
 .login{
   vertical-align: 50%;
   display: inline-block;
-
-}
-.login, p, .button{
-  display: inline-block;
 }
 
-.button{
-  color: white;
-  border-radius: 5px;
-  border: 1px solid white;
-}
-
-.login .button{
-  padding: 10px;
-  margin: 0 10px;
-}
-
-.button:hover{
-  background-color: #7cbb05;
-  border: none;
+.login .btn{
+  margin-left: 10px;
 }
 
 .hero{
@@ -104,11 +109,6 @@ a{
 .title h1{
   font-size: 50px;
   margin-bottom: 20px;
-}
-
-.important{
-  padding: 20px;
-  background-color: #7cbb05;
 }
 
 .scuole-trad{
@@ -247,5 +247,5 @@ button{
   padding: 10px;
   position: fixed;
   bottom: 0;
-  right: 32%;
+  right: 29%;
 }
