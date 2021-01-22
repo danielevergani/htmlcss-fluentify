@@ -14,7 +14,7 @@ header{
   color: white;
 }
 
-.upper a{
+a{
   text-decoration: none;
   color: white
 }
@@ -167,6 +167,7 @@ header{
     border-bottom: 1px solid black;
 }
 
+
 .livello-iniziale{
   width: 80%;
   margin: auto;
@@ -178,6 +179,11 @@ header{
   content: "";
   display: block;
   clear: both;
+}
+
+.livello-iniziale a{
+  color: blue;
+  text-decoration: underline;
 }
 
 .img-livello{
