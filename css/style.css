@@ -229,3 +229,14 @@ header{
 .selezione{
   border-bottom: 1px solid black;
 }
+
+button{
+  background-color: #7cbb05;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 32%;
+}
